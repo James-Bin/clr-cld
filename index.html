@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap網頁</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">    
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <!-- 導覽列 -->
+	<nav class="navbar navbar-default">
+      <div class="container-fluid"  style="background:#428bca">
+	    <!-- 導覽列的頁首 -->
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#" style="color:white">彩雲部落</a>
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+            <span class="sr-only">導覽按鈕</span>
+            <span class="icon-bar" style="background:white"></span>
+            <span class="icon-bar" style="background:white"></span>
+            <span class="icon-bar" style="background:white"></span>
+          </button>
+        </div>
+		
+		<!-- 導覽列的項目 -->
+	    <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">首頁</a></li>
+            <!--<li><a href="#" style="color:white">新增文章</a></li>-->
+            <!--<li><a href="#" style="color:white">管理後台</a></li>-->
+            <!--<li><a href="#" style="color:white">站長日誌</a></li>-->
+          </ul>	
+		  
+          <!--<form class="navbar-form navbar-right">
+            <div class="form-group has-feedback">
+              <input type="search" class="form-control" placeholder="輸入美食或餐廳">
+              <span class="glyphicon glyphicon-search form-control-feedback"></span>
+            </div>
+            <button type="submit" class="btn btn-default">搜尋</button>
+          </form>-->
+
+	    </div>
+      </div>
+    </nav>
+
+    <!-- 頁首 -->
+	<header>
+      <div class="container">
+        <h1>彩雲部落</h1>
+        <p class="lead">賞心、見聞、知性、工程、科技</p>
+      </div>
+	</header>    
+	
+	<!-- 內容區 -->
+    <hr>  
+    <div class="container">	  
+      <div class="row">
+	    <!-- 文章 -->
+		<article>
+          <div class="col-sm-8">
+            <h3>&middot;八德埤塘生態公園&middot;</h3>
+            <p>2024年3月by<a href="#">老漢</a></p>			
+		        <img src="bdpkscene/img/埤塘公園大門.jpg" class="img-responsive">
+            <div class="row">	
+              <div class="col-xs-12 col-sm-7">
+                  <p class="text-info">(一)八德埤塘公園<br>
+                   八德埤塘生態公園是個遊客休閒活動的好地方,<br>
+                   
+                  <p class="text-info">(二)八德埤塘生態公園概述<br>
+                   漫步在埤塘生態公園如徜徉在綠色世界,美景盡收眼底,呼吸著清新空氣,走綠蔭大道,聽蟲鳴鳥叫,<br>
+                   觀閑鴨游魚,賞田園小雞,遊蓮花池畔,享清風水波。<br>
+                   在這無拘無束的空間開懷舒暢身心,享受健康美麗的一天。</p>
+                  
+                  <p class="text-info">(三)賞心<br>                                  
+                   觀聽感受四季更迭的園內生態多樣風貌,春看繁花似錦鳥獸蟲木爭奇鬥艷,夏聽蟬聲陣陣,<br>
+                   秋迎金風送爽,冬暄陽光溫暖,這四季變化的萬種風情與之相互輝映渾然天成出一幅溫馨和暖的畫面啟迪人心,<br>
+                   也猶如婉轉和諧的音律盪氣回腸。</p>
+                  <hr>
+              </div>
+            </div>
+           
+            <!--<img src="leput2.jpg" class="img-responsive">
+            <p>，。</p>
+            <hr>-->			
+		        <!--<img src="leput3.jpg" class="img-responsive">
+            <p>，。</p>
+            <hr>-->
+		  
+            <!--<nav>
+              <ul class="list-inline text-center">
+                <li><a class="btn btn-info btn-lg" href="#">上一篇</a></li>
+                <li><a class="btn btn-info btn-lg" href="#">下一篇</a></li>
+              </ul>
+            </nav>-->
+          </div>
+		</article>
+
+		<!-- 側邊欄 --> 		
+		<aside>
+          <div class="col-sm-3 col-sm-offset-1">
+		    <!-- 第一個面板-->
+		    <div class="panel panel-danger">
+              <div class="panel-heading">
+                <h3>彩雲部落</h3>
+              </div>
+              <div class="panel-body">
+                <p>為愛好[賞心、見聞、知性、工程、科技]等題材之同好所設，搜集相關資料，一起分享！</p>
+              </div>
+		    </div>
+		  
+		    <!-- 第二個面板-->
+		    <!--<div class="panel panel-warning">
+			  <div class="panel-heading">
+                <h3>美食推薦</h3>
+              </div>
+              <div class="panel-body">
+                <ol class="list-unstyled">
+                  <li><a href="#">沾美西餐廳</a></li>
+                  <li><a href="#">心壽司日式烹割</a></li>
+                  <li><a href="#">游一間鋪</a></li>
+                  <li><a href="#">ATTS Coffee</a></li>
+                  <li><a href="#">晶華酒店下午茶</a></li>
+                  <li><a href="#">一蘭拉麵</a></li>
+                  <li><a href="#">一風堂拉麵</a></li>
+                  <li><a href="#">望月樓</a></li>
+                  <li><a href="#">新葡苑</a></li>
+                  <li><a href="#">鼎泰豐</a></li>
+                </ol>
+              </div>
+		    </div>-->
+
+            <!-- 第三個面板-->		  
+		    <div class="panel panel-info">
+              <div class="panel-heading">
+                <h3>主題相片</h3>
+              </div>
+              <div class="panel-body">
+                <ol class="list-unstyled">
+                  <!--<li><a href="#">廣告連結1</a></li>
+                  <li><a href="#">廣告連結2</a></li>
+                  <li><a href="#">廣告連結3</a></li>
+                  <li><a href="#">廣告連結4</a></li>-->
+
+                  <li><a href="bdpkscene/bdpkscene.html">八德埤塘生態公園</a></li>
+                </ol>                
+              </div>              
+         </div>            
+        </div>      
+      </aside>        
+      </div>
+     </div> 
+
+	
+    <!-- 頁尾 -->
+    <hr> 	
+	<!--<footer>  
+	  <div class="container">
+        <p>&copy; 2017日光多媒體&middot;<a href="#">隱私權政策</a>&middot;<a href="#">服務條款</a></p>
+		<p class="text-right"><a href="#">Back to top</a></p>
+	  </div>	
+    </footer>-->
+  </body>	
+</html>  
+    
